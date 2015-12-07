@@ -1,0 +1,19 @@
+{
+  "name": "compassheading",
+  "version": "1.0.0",
+  "description": "converts device orientation to compass heading",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/me97esn/compassheading.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/me97esn/compassheading/issues"
+  },
+  "homepage": "https://github.com/me97esn/compassheading#readme"
+}
