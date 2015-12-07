@@ -1,6 +1,7 @@
 module.exports = {
-	compassHeading: function(alpha, beta, gamma) {
-
+	compassHeading: function(options) {
+		const {alpha, beta, gamma} = options;
+		console.log('calc compass heading from ', alpha, beta, gamma);
 		// Convert degrees to radians
 		var alphaRad = alpha * (Math.PI / 180);
 		var betaRad = beta * (Math.PI / 180);
@@ -35,4 +36,4 @@ module.exports = {
 		return compassHeading;
 
 	}
-}
+};

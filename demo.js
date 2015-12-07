@@ -1,16 +1,16 @@
 function deviceOrientationListener(event) {
-	System.import('index.js').then(heading => {})
+	System.import('index.js').then(heading => {
+		const _heading = heading.compassHeading({
+			gamma: event.gamma,
+			beta: event.beta,
+			alpha: event.alpha
+		})
+
+		document.getElementById('compass').innerHTML = _heading
+	})
+
+
 	
-
-	document.getElementById('compass').innerHTML = 'hej'
-
-	this.orientation = {
-		gamma: event.gamma,
-		beta: event.beta,
-		alpha: event.alpha,
-		heading: event.webkitCompassHeading || (360 - event.alpha),
-		accuracy: event.webkitCompassAccuracy || event.compassAccuracy
-	};
 }
 
 window.addEventListener('deviceorientation', deviceOrientationListener);
