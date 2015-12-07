@@ -1,5 +1,5 @@
 module.exports = {
-	compassHeading = function(alpha, beta, gamma) {
+	compassHeading: function(alpha, beta, gamma) {
 
 		// Convert degrees to radians
 		var alphaRad = alpha * (Math.PI / 180);

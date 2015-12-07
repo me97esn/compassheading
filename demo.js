@@ -1,4 +1,6 @@
 function deviceOrientationListener(event) {
+	System.import('index.js').then(heading => {})
+	
 
 	document.getElementById('compass').innerHTML = 'hej'
 
