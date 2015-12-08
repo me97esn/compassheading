@@ -1,6 +1,6 @@
 {
   "name": "compassheading",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "converts device orientation to compass heading",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/me97esn/compassheading.git"
   },
-  "author": "",
+  "author": "Emil Stenberg",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/me97esn/compassheading/issues"
